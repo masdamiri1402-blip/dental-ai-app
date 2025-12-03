@@ -14,8 +14,7 @@ jobs:
     
     - name: Download model from release
       run: |
-        wget https://github.com/${{ github.repository }}/releases/download/v1.0/dental_model_mobile.ptl
-    
+    wget https://github.com/masdamiri1402-blip/dental-ai-app/releases/download/v1/dental_model_mobile.ptl
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
